@@ -3,21 +3,16 @@ package ru.netology.javaqa;
 public class Radio {
     private int maxVolume = 100;
     private int minVolume = 0;
-    private int maxStation = 9;
-    private int minStation = 0;
+    private int maxStation;
+    private int minStation;
     private int currentVolume;
     private int currentStation;
 
     public Radio() {
     }
 
-    public Radio(int currentStation, int maxStation, int minStation, int currentVolume, int maxVolume, int minVolume) {
-        this.currentStation = currentStation;
+    public Radio(int maxStation) {
         this.maxStation = maxStation;
-        this.minStation = minStation;
-        this.currentVolume = currentVolume;
-        this.maxVolume = maxVolume;
-        this.minVolume = minVolume;
     }
 
 
