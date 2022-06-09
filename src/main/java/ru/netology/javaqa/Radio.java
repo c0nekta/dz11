@@ -1,7 +1,7 @@
 package ru.netology.javaqa;
 
 public class Radio {
-    private int maxVolume = 10;
+    private int maxVolume = 100;
     private int minVolume = 0;
     private int maxStation = 10;
     private int minStation = 0;
