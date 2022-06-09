@@ -67,9 +67,9 @@ public class RadioTest {
 
     @Test
     void upVolumeShouldMaxVolume() {
-        radio.setCurrentVolume(10);
+        radio.setCurrentVolume(100);
         radio.setUpVolume();
-        Assertions.assertEquals(10, radio.getCurrentVolume());
+        Assertions.assertEquals(100, radio.getCurrentVolume());
     }
 
     @Test
